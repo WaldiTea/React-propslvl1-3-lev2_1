@@ -1,0 +1,36 @@
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+
+  figure {
+    width: 30%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  button {
+    background: #da7371;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    padding: 3% 12%;
+
+    &:hover {
+      cursor: pointer;
+      background: #d04b49;
+    }
+  }
+}
